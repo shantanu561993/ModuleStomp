@@ -27,7 +27,7 @@ namespace ModuleStomp
 
             Win32.WriteProcessMemory(process.Handle, mem, Encoding.ASCII.GetBytes(ModuleName), (uint)ModuleName.Length, out UIntPtr lpNumberOfBytesWritten);
 
-            var kernel = Win32.LoadLibraryEx("kernel32.dll", IntPtr.Zero, 0);
+            var kernel = Win32.LoadLibraryEx("kernel32.dll", IntPtr.Zero, 1);
             var loadLibrary = Win32.GetProcAddress(kernel, "LoadLibraryA");
 
             IntPtr remote_thread = Win32.CreateRemoteThread(process.Handle, IntPtr.Zero, 0, loadLibrary, mem, 0, IntPtr.Zero);
