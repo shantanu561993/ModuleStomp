@@ -1,0 +1,6 @@
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\bin\Release\ModuleStomp.exe.config
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\bin\Release\ModuleStomp.exe
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\bin\Release\ModuleStomp.pdb
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\obj\Release\ModuleStomp.csproj.CoreCompileInputs.cache
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\obj\Release\ModuleStomp.exe
+C:\Users\intruder\source\repos\ModuleStomp\ModuleStomp\obj\Release\ModuleStomp.pdb
